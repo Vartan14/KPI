@@ -1,4 +1,0 @@
-﻿  module.cpp
-D:\Projects\lab1 C++\lab1 C++\module.cpp(112,36): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Projects\lab1 C++\lab1 C++\module.cpp(115,36): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  lab1 C++.vcxproj -> D:\Projects\lab1 C++\x64\Debug\lab1 C++.exe
