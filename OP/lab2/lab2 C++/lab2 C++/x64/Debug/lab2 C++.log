@@ -1,0 +1,5 @@
+﻿  module.cpp
+D:\Projects C#\lab2 C++\lab2 C++\module.cpp(29,9): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Projects C#\lab2 C++\lab2 C++\module.cpp(30,9): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Projects C#\lab2 C++\lab2 C++\module.cpp(31,9): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Projects C#\lab2 C++\lab2 C++\module.cpp(41,49): error C2512: MaterialPoint: нет подходящего конструктора по умолчанию
