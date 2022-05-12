@@ -4,6 +4,7 @@
 #include <math.h>
 #include <iomanip>
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -13,29 +14,18 @@ class Circle
 	double y;
 	double radius;
 public:
-	Circle(double, double, double);
-	
-	Circle(double, double);
-	
-	Circle(double = 1);
-
-	Circle(const Circle&);
+	Circle(double, double, double);	
+	Circle(double, double);	
+	Circle(double = 1);	
 		
-	double getX();
-	
-	double getY();
-	
+	double getX();	
+	double getY();	
 	double getRadius();
-	
-	double circleLength();
-	
+	double circleLength();	
 	void print();
 	
-	Circle operator++();
-	
-	Circle operator++(int);
-	
+	Circle operator++();	
+	Circle operator++(int);	
 	Circle operator*(int);	
 };
 
-Circle maxCircleLength(vector <Circle>);

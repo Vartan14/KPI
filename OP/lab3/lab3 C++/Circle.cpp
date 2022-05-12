@@ -21,13 +21,6 @@ Circle::Circle(double r)
 	this->radius = r;
 }
 
-Circle::Circle(const Circle& obj)
-{
-	this->x = obj.x;
-	this->y = obj.y;
-	this->radius = obj.radius;
-}
-
 double Circle::getX()
 {
 	return x;
@@ -43,8 +36,7 @@ double Circle::getRadius()
 
 double  Circle::circleLength()
 {
-	double temp = 2 * radius * M_PI;
-	return temp;
+	return 2 * radius * M_PI;
 }
 
 void Circle::print()
@@ -73,17 +65,4 @@ Circle Circle::operator*(int num)
 	return *this;
 }
 
-Circle maxCircleLength(vector <Circle> circles)
-{
-	Circle maxCircle = circles[0];
-	double maxLength = circles[0].circleLength();
-	for (size_t i = 1; i < circles.size(); i++)
-	{
-		if (circles[i].circleLength() > maxLength)
-		{
-			maxCircle = circles[i];
-			maxLength = circles[i].circleLength();
-		}
-	}
-	return maxCircle;
-}
+
