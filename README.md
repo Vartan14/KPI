@@ -1,2 +1,2 @@
 # KPI
-This is repository of Program Basics labatory works
+This is repository of Program Basics laboratory works
