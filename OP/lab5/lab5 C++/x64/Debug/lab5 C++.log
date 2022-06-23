@@ -1,0 +1,7 @@
+﻿  Functions.cpp
+D:\Projects\lab5 C++\lab5 C++\Functions.cpp(80,50): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Projects\lab5 C++\lab5 C++\Functions.cpp(81,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Projects\lab5 C++\lab5 C++\Functions.cpp(84,30): warning C4267: -=: преобразование из "size_t" в "int"; возможна потеря данных
+  lab5 C++.cpp
+  Создание кода...
+  lab5 C++.vcxproj -> D:\Projects\lab5 C++\x64\Debug\lab5 C++.exe

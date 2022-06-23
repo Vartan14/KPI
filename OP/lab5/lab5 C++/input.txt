@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void print(int a)
+{
+	cout << a << endl;
+}
+
+int get5()
+{
+	return 5;
+}
+
+int main()
+{
+	int a = 15;
+
+	const int A = get5();
+	bool flag = true;
+
+	float num;
+	double num2 = 324.231;
+
+	const char CH = 'c';
+	const float PI = 3.14;
+
+	print(a);
+	char symbol;
+
+
+}
